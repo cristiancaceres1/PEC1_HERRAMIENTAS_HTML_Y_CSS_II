@@ -1,8 +1,8 @@
 {
-  "name": "uoc-boilerplate",
+  "name": "pec1-herramientas-html-y-css-i-i",
   "version": "3.8.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "HTML/CSS web for PEC 1",
   "scripts": {
     "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
@@ -24,17 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+    "url": "git+https://github.com/cristiancaceres1/PEC1_HERRAMIENTAS_HTML_Y_CSS_II"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Cristian Ramos",
+    "email": "crisramca@uoc.edu"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues"
-  },
-  "homepage": "https://github.com/uoc-advanced-html-css/uoc-boilerplate#readme",
+  "homepage": "https://github.com/cristiancaceres1/PEC1_HERRAMIENTAS_HTML_Y_CSS_II#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0",
     "autoprefixer": "^10.4.15",
