@@ -1,0 +1,30 @@
+/*------------------------------------*\
+#PRODUCT BLOCK
+\*------------------------------------*/
+
+.product-block {
+  margin-top: 25px;
+
+  &__line-space {
+    border-top: 4px solid black;
+    margin: 0 auto;
+    position: relative;
+    top: 14px;
+    flex: 1;
+  }
+
+  &__image-hover:hover {
+    opacity: 0.7;
+  }
+
+  &__title-section {
+    display: flex;
+
+    h2 {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+}
+
+

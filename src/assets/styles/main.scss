@@ -1,0 +1,96 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+ /**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Variables...............Globally-available variables and settings/config.
+ *
+ * BASE
+ * Page....................Page-level styles (HTML element).
+ * Headings................H1–H6 styles.
+ * Lists...................Simple list styles
+ * Links...................Hyperlink styles
+ * Images..................Images
+ *
+ * GENERIC
+ * Reset...................A pared back reset to remove margins.
+ *
+ * COMPONENTS
+ * Page-header.............The main page header.
+ * Page-footer.............The main page footer.
+ * Promo...................Styles specifically for promo block.
+ * Secundary-promo-block...Syles specifically for secundary promo block.
+ * Product-block ..........Styles specifically for product block.
+ * Article-block ..........Styles specifically for article block.
+ * Buttons.................Button elements.
+ * Search..................Searcher styles.
+ * Newsletter..............Styles specifically for newsletter signups.
+
+ *
+ * TRUMPS
+ * Show/hide...............Helpers to show and side stuff.
+ */
+ 
+
+/**
+ * #VARIABLES
+ */
+
+@import "settings.variables";
+
+/**
+ * #BASE
+ */
+
+ @import "base.page";
+ @import "base.headings";
+ @import "base.list";
+ @import "base.links";
+ @import "base.images";
+
+ /**
+ * #GENERIC
+ */
+
+ @import "generic.reset";
+
+ /**
+ * #LAYOUTS
+ * It's a best practice to use a different partial for each page
+ */
+
+@import "layouts/components.page-header";
+@import "layouts/components.article-block";
+@import "layouts/components.promo";
+@import "layouts/components.secundary-promo-block";
+@import "layouts/components.product-block";
+@import "layouts/components.buttons";
+@import "layouts/components.search";
+@import "layouts/components.newsletter";
+@import "layouts/components.page-footer";
+
+/**
+ * #TRUMPS
+ */
+
+ @import "trumps.show-hide";
+
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+
+/**
+ * @import "some-node-module";
+ * @import "@some-company/some-node-module";
+ */
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+/**
+ * Do NOT include anything else in this file!
+ */

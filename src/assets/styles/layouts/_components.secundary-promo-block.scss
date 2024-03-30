@@ -1,0 +1,33 @@
+/*------------------------------------*\
+#SECUNDARY PROMO BLOCK
+\*------------------------------------*/
+
+.secundary-promo-block {
+  background-image: url(../images/universidad-de-varsovia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  &__text-block {
+    background-color: $color-text-light;
+    padding: 50px;
+    max-width: 90%;
+    margin: 0 auto;
+    align-self: center;
+    text-align: center;
+    box-shadow: 0 2px 8px $color-text, 0 2px 6px transparent;
+
+    @media (min-width: 576px) {
+      max-width: 70%;
+    }
+
+    @media (min-width: 768px) {
+      max-width: 55%;
+    }
+  }
+}
+
+

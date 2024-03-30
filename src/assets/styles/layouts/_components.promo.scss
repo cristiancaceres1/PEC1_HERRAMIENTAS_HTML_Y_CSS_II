@@ -1,0 +1,21 @@
+/*------------------------------------*\
+#PROMO BLOCK
+\*------------------------------------*/
+
+.promo-block {
+  background-image: url(../images/varsovia-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+
+  &__title {
+    margin-top: 60px;
+    background-color: rgb(255, 249, 230, 0.7);
+  }
+}
+
+
+

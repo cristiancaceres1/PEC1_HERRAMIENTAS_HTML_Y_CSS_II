@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Varsovia Turismo</title>
+    <meta name="description" content="Explore la maravillosa ciudad de Varsovia y descubra sus atracciones turísticas, historia y cultura.">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="icon" href="assets/images/icons/uoc.jpg">
+</head>
+
+<body class="page-index">
+    <include src="./views/header.html"></include>
+    <main>
+       
+        <section class="promo-block">
+            <h1 class="promo-block__title">¿Qué le gustaría explorar hoy en Varsovia?</h1>
+            <form class="search-container promo-block__search-container">
+                <div class="search-box">
+                    <a href="#" class="search-box__link"><img class="search-box__icon img-fluid" src="assets/images/icons/search.svg" alt="Icon search"></a>     
+                    <input type="text" class="search-box__input" placeholder="Busque un plan...">
+                </div>
+            </form>
+        </section>
+        
+        <div class="container">
+
+            <section class="product-block special-list">
+                <div class="product-block__title-section">
+                    <div class="product-block__line-space"></div>
+                    <h2>Más visitados</h2>
+                    <div class="product-block__line-space"></div>
+                </div>
+                <ul class="product-block__list">
+                    <li class="product-block__item"><a href="#"><img src="assets/images/centro-historico-varsovia.jpg" class="product-block__image-hover img-fluid" alt="Centro histórico de Varsovia">Centro histórico</a></li>
+                    <li class="product-block__item"><a href="#"><img src="assets/images/distrito-masoviano-varsovia.jpg" class="product-block__image-hover img-fluid" alt="Distrito Masoviano de Varsovia">Distrito Masoviano de Varsovia</a></li>
+                    <li class="product-block__item"><a href="#"><img src="assets/images/palacio-cultura-varsovia.jpg" class="product-block__image-hover img-fluid" alt="Museo de la Historia de los Judíos Polacos">Palacio de la cultura</a></li>
+                    <li class="product-block__item"><a href="#"><img src="assets/images/catedral-san-miguel-arcangel-y-san-floriano.jpg" class="product-block__image-hover img-fluid" alt="Catedral de San Miguel Arcagel y San Floriano">Catedral de San Miguel Arcagel y San Floriano</a></li>
+                </ul>
+            </section>            
+
+            <section class="secundary-promo-block">
+                <div class="secundary-promo-block__text-block">
+                    <div class="secundary-promo-block__title-section">
+                        <h2>Tienda</h2>
+                    </div>
+                    <p>¿Quieres llevar un recuerdo de Varsovia?</p>
+                    <p>Visite nuestra tienda donde encontrará una amplia selección de souvenirs, libros, y más.</p>
+                    <a class="secundary-promo-block__link secundary-link" href="#">Visite nuestra tienda</a>
+                </div>
+            </section>            
+
+            <section class="article-block">
+                <div class="article-block__content">
+                    <h2 class="article-block__title">Selección de la semana</h2>
+                    <h3>Palacio de Wilanów</h3>
+                    <p>El Palacio de Wilanów es uno de los monumentos más valiosos de la cultura polaca. Ubicado en un hermoso parque, es un lugar perfecto para un paseo tranquilo y una experiencia cultural.</p>
+                    <a class="article-block__button button" href="#">Ver más</a>
+                </div>
+                <div class="article-block__image">
+                    <img class="article-block__image-img img-fluid" src="assets/images/palacio-wilanow.jpg" alt="Selección de la semana">
+                </div>
+            </section>
+            
+
+        </div>
+
+        <include src="./views/newsletter.html"></include>
+      
+    </main>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>

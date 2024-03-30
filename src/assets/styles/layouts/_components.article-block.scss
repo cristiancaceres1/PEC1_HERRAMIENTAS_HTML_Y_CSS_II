@@ -1,0 +1,50 @@
+/*------------------------------------*\
+#ARTICLE BLOCK
+\*------------------------------------*/
+
+@function ls-basic($value) {
+  @return $value / 1000 * 1em;
+ }
+
+.article-block {
+  display: flex;
+  flex-direction: column;
+
+  &__content,
+  &__image {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+
+  &__image img {
+    margin-top: 20px;
+  }
+
+  &__content p {
+    margin-bottom: 40px;
+
+    @media (min-width: 768px) {
+      padding-right: 50px;
+    }
+
+    @media (min-width: 992px) {
+      padding-right: 100px;
+    }
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 0;
+    letter-spacing: ls-basic(-25);
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+
+
+

@@ -1,0 +1,72 @@
+/*------------------------------------*\
+#NEWSLETTER
+\*------------------------------------*/
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  background-color: $color-main;
+  min-height: 260px;
+
+  &::before {
+    background: url(../images/doodle.png) repeat 0% 0%;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+  }
+
+  &__fieldset {
+    border: none;
+    text-align: center;
+    margin-top: 25px;
+    z-index: 1;
+
+    @media (min-width: 576px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__legend {
+    margin: 0 auto;
+  }
+
+  &__form-label {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  &__form-group {
+    margin-top: 25px;
+
+    @media (min-width: 576px) {
+      margin-top: 0;
+    }
+  }
+
+  &__input[type="email"] {
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 40px;
+    font-size: 1rem;
+    border: 1.5px solid $color-main;
+    border-radius: 5px;
+
+    @media (min-width: 576px) {
+      padding-right: 108px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+  }
+}
+
